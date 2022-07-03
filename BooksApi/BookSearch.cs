@@ -16,9 +16,8 @@ namespace BooksApi
 {
    public class BookSearch
    {
-      //You need to substitute this with your own API key.
-      //For more information, visit http://wp.me/paUXZ-TY 
-      private static string API_KEY = "AIzaSyACdHSQbarZ_V5SzuDEg8UQUQQX_tKfpvA";
+
+      private static string API_KEY = "abc";
 
       public static BooksService service = new BooksService(new BaseClientService.Initializer
       {
